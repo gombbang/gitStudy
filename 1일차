@@ -1,0 +1,21 @@
+좌충우돌 시작기
+	문제 상황 
+		image 1
+		겨우겨우 remote add 이후 push 하려고 했는데, remote에 못올린대
+		원인 해결을 위해 git config를 뒤지고 다님
+		-> 결과적으로 저걸 체크해서 git log를 때리는 건 맞으나, 직접 사용하는건 아닌가벼
+		https://www.lainyzine.com/ko/article/how-to-set-git-repository-username-and-email/
+		https://www.lainyzine.com/ko/article/how-to-set-a-different-username-and-email-for-each-git-repository/
+		https://sooya14.tistory.com/entry/Git-%EC%82%AC%EC%9A%A9%EC%9E%90-%EA%B3%84%EC%A0%95-username-useremail-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0
+		별 알짜배기가 없었음
+		https://recoveryman.tistory.com/392
+		문제의 원인은 "windows 자격 증명 관리"
+
+	내가 그동안 시작하려고 시작하려고 노력했던 흔적들
+	image 2
+  image 3
+		
+		두번이나 했었음 ㅎㅎ..
+		
+		image 4
+		잘 올라가진다~

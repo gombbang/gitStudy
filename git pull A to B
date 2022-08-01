@@ -1,0 +1,20 @@
+branch pull
+
+- https://blusky10.tistory.com/486
+- branch A에 있는 내용을 branch B로 당겨오려고 했음
+1. branch B로 체크아웃
+2. git pull origin branchA
+-> merge와 동일한 내용
+
+merge(git pull) A to B했을 때, A에 대한 내용이 궁금했다.
+Q1. B에서 내용을 고치면 A에도 반영이 되는가?
+A1. No, 이후에도 이전처럼 A와 B는 독립적으로 움직인다.
+
+Q2. A에도 B의 내용이 들어오는가?
+A2. No, Merge를 요청한 B에만 A의 내용을 덧씌워온다.
+
++ commit순서와 상관없이 pull이 가능하다.
+(A1, B1, A2, A3, A4, B4 순서로 했을 때, B4이전의 내용들이 있어도 가능)
+
+=> 내가 원했던 모습대로 흘러간다.
+(branch B에 branch A의 내용을 끌어오고, branch A와 branch B가 서로 독립적으로 움직이는걸 생각)
